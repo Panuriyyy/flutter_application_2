@@ -28,7 +28,6 @@ void main() {
                   width: 50,
                   height: 50,
                 ),
-
                 Container(
                   decoration: BoxDecoration(
                     color: Colors.lightGreen,
@@ -48,6 +47,17 @@ void main() {
               ],
             ),
           ],
+        ),
+
+        floatingActionButton: Center(
+          child: FloatingActionButton(
+            onPressed: () {
+              // Действие при нажатии
+            },
+            child: Image.network(
+              "https://static.wikia.nocookie.net/3fca098f-258f-4af7-b8ec-470ddfa0a2ed",
+            ),
+          ),
         ),
       ),
     ),
