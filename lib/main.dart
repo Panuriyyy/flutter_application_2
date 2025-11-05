@@ -16,7 +16,7 @@ void main() {
                 child: Text("Circle"),
               ),
             ),
-            Text("News"),
+            Text("News", style: TextStyle(fontStyle: FontStyle.italic)),
             Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
